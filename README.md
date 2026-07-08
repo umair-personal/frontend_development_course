@@ -21,3 +21,9 @@
 - Use `<sup>` and `<sub>` to display sample text.
 - Compare how `<span>` and `<div>` appear on the page.
 
+## Day Three - HTML Images & Links (2026-07-08)
+
+- Updated HTML/day_03.html: added a local image (`pc_image.jpg`) and an external image, plus anchor links to YouTube and the Day One file.
+- Notes: Use `target="_blank"` on external links to open them in a new tab when appropriate.
+
+
