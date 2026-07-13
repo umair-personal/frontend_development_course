@@ -51,4 +51,10 @@
 - Using video elements with autoplay and loop
 - Working with containers (`<div>`) for layout structuring
 
+## Day Five - HTML Forms (2026-07-13)
+
+- Updated `HTML/day_05.html`: created a registration form with email, password, phone, name, age, checkboxes, radio buttons, and a consent checkbox.
+- Reviewed form input types: `email`, `password`, `number`, `text`, `checkbox`, `radio`, and `button`.
+- Practiced using labels with form controls and organizing inputs with line breaks for readability.
+
 
