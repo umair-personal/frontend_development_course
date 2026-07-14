@@ -57,6 +57,10 @@
 - Reviewed form input types: `email`, `password`, `number`, `text`, `checkbox`, `radio`, and `button`.
 - Practiced using labels with form controls and organizing inputs with line breaks for readability.
 
-gender
+## Day Six - Embedded Content & Entities (2026-07-14)
+
+- Updated `HTML/day_06.html`: embedded a Google Maps location using an `<iframe>`.
+- Explored HTML character entities: `©`, `&#xa9;`, `&#169;`, and emoji characters.
+- Reviewed how to use `allowfullscreen`, `loading="lazy"`, `referrerpolicy`, and `style="border:0;"` on embedded content.
 
 
