@@ -57,4 +57,6 @@
 - Reviewed form input types: `email`, `password`, `number`, `text`, `checkbox`, `radio`, and `button`.
 - Practiced using labels with form controls and organizing inputs with line breaks for readability.
 
+gender
+
 
