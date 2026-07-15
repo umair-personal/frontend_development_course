@@ -63,4 +63,9 @@
 - Explored HTML character entities: `©`, `&#xa9;`, `&#169;`, and emoji characters.
 - Reviewed how to use `allowfullscreen`, `loading="lazy"`, `referrerpolicy`, and `style="border:0;"` on embedded content.
 
+## Day Seven - CSS Begins Today (2026-07-15)
+
+- Started CSS lessons and added styling concepts to the course notes.
+- Use `CSS/day_07.html` to practice CSS selectors, properties, and layout techniques.
+
 
