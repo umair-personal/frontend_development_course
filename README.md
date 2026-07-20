@@ -68,4 +68,16 @@
 - Started CSS lessons and added styling concepts to the course notes.
 - Use `CSS/day_07.html` to practice CSS selectors, properties, and layout techniques.
 
+## Day Eight - Basic CSS Styling (2026-07-16)
+
+- Updated `CSS/day_08.html` with a simple class-based styling example.
+- Learned how to apply a CSS class to a heading and change its text color.
+- Practice idea: try styling multiple headings with the same class.
+
+## Day Nine - Text Formatting in CSS (2026-07-17)
+
+- Updated `CSS/day_09.html` with paragraph text formatting using `font-size`, `font-family`, `font-weight`, `text-align`, `text-transform`, `word-spacing`, and `line-height`.
+- Explored the difference between class selectors (`.`) and ID selectors (`#`).
+- Practice idea: try changing one property at a time to observe how the paragraph layout changes.
+
 
