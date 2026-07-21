@@ -80,11 +80,12 @@
 - Explored the difference between class selectors (`.`) and ID selectors (`#`).
 - Practice idea: try changing one property at a time to observe how the paragraph layout changes.
 
-## Day Ten - CSS Margins and Padding (2026-07-21)
+## Day Ten - CSS Margins, Padding, Height, and Width (2026-07-21)
 
 - Updated `CSS/day_10.html` with examples of spacing using `margin` and `padding`.
 - Learned how to set individual sides using `margin-top`, `margin-right`, `margin-bottom`, `margin-left`, and the corresponding `padding-*` properties.
 - Practiced shorthand syntax such as `margin: 200px 120px 150px 50px;` and `padding: 100px 110px 180px 80px;`.
-- Observed how spacing changes the layout around elements and improves visual structure.
+- Covered `height` and `width` properties to control the size of elements, including examples like `height: 100px;` and `width: 220px;`.
+- Observed how spacing, sizing, and box dimensions change the layout around elements and improve visual structure.
 
 
