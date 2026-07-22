@@ -88,4 +88,10 @@
 - Covered `height` and `width` properties to control the size of elements, including examples like `height: 100px;` and `width: 220px;`.
 - Observed how spacing, sizing, and box dimensions change the layout around elements and improve visual structure.
 
+## Day Eleven - External CSS (2026-07-22)
+
+- Updated `CSS/day_11.html` to connect an external stylesheet with `<link rel="stylesheet" href="day_11.css">`.
+- Learned how to apply a class selector from an external CSS file to style an HTML heading.
+- Practiced keeping HTML structure and CSS styling in separate files.
+
 
