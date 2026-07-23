@@ -94,4 +94,17 @@
 - Learned how to apply a class selector from an external CSS file to style an HTML heading.
 - Practiced keeping HTML structure and CSS styling in separate files.
 
+## Day Twelve - Advanced Box Model & Borders (2026-07-23)
+
+- Updated `CSS/day_12.css` with advanced styling techniques for the box model and borders.
+- **h1 element styling**: Applied `background-color: aquamarine`, `margin: 100px 80px 50px 150px`, and `padding: 120px` to control spacing.
+- **.container class styling**: Demonstrated:
+  - Box dimensions: `width: 400px`, `height: 400px`
+  - Background and text: `background-color: rgb(162, 118, 61)`, `color: aqua`
+  - Individual margins and padding: `margin-left: 100px`, `margin-bottom: 100px`, `padding-top: 80px`, `padding-left: 120px`
+  - Typography: `font-size: 40px`, `font-family` (Gill Sans stack), `font-weight: 600`
+  - Border styling: `border: 10px solid green` and `border-radius: 40px`
+- Explored various commented-out options for `border-style` (dashed, dotted, double, groove) and different `border-radius` values for rounded corners.
+- Practice idea: experiment with different border styles and radius combinations to create visually distinct containers.
+
 
