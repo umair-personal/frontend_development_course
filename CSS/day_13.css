@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: aquamarine;
+    margin: 0;
+}
+.wrapper{
+    /* background-color: aqua; */
+    height: 600px;
+    background-image: url(./bg_image.jpg);
+     background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-color: rgb(100, 97, 97);
+   background-blend-mode: color;
+}
