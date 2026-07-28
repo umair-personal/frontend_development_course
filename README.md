@@ -107,4 +107,11 @@
 - Explored various commented-out options for `border-style` (dashed, dotted, double, groove) and different `border-radius` values for rounded corners.
 - Practice idea: experiment with different border styles and radius combinations to create visually distinct containers.
 
+## Day Thirteen Part Two - CSS Background Gradients (2026-07-24)
+
+- Updated `CSS/day_13_part_2.css` and `CSS/day_13_part_2.html` with background gradients.
+- Used `background-image: radial-gradient(circle, red 10%, yellow, blue, pink)` to create a radial gradient effect.
+- Reviewed how gradients can replace plain background colors and how to layer colors smoothly.
+- Practiced by uncommenting alternate gradient examples and testing linear and radial gradient directions.
+
 
