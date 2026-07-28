@@ -107,6 +107,13 @@
 - Explored various commented-out options for `border-style` (dashed, dotted, double, groove) and different `border-radius` values for rounded corners.
 - Practice idea: experiment with different border styles and radius combinations to create visually distinct containers.
 
+## Day Fourteen - Flexbox Alignment (2026-07-25)
+
+- Updated `CSS/day_14.html` to practice flexbox alignment with three child boxes.
+- Learned that `align-items: center` is the correct property to align flex items vertically in a row.
+- Noted that `justify-items` does not apply to flex containers and `align-content` only matters when wrapping or extra cross-axis space exists.
+- Practiced centering content inside a flex parent and giving the container enough height for vertical alignment to be visible.
+
 ## Day Thirteen Part Two - CSS Background Gradients (2026-07-24)
 
 - Updated `CSS/day_13_part_2.css` and `CSS/day_13_part_2.html` with background gradients.
