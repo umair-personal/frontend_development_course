@@ -121,4 +121,11 @@
 - Reviewed how gradients can replace plain background colors and how to layer colors smoothly.
 - Practiced by uncommenting alternate gradient examples and testing linear and radial gradient directions.
 
+## Day Fifteen - Responsive Layouts & Grid (2026-07-30)
+
+- Updated `CSS/day_15.html`: examples demonstrating CSS Grid and responsive breakpoints.
+- Topics: CSS Grid basics, grid-template-columns, grid-gap, media queries for responsive layouts.
+- Practice: convert a multi-column layout to a grid and add a `@media` query to stack columns on small screens.
+
+
 
