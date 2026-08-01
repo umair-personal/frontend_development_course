@@ -127,5 +127,14 @@
 - Topics: CSS Grid basics, grid-template-columns, grid-gap, media queries for responsive layouts.
 - Practice: convert a multi-column layout to a grid and add a `@media` query to stack columns on small screens.
 
+## Day Sixteen - Shadows & Effects (2026-07-31)
+
+- Updated `CSS/day_16.html` and `CSS/day_16.css` to practice text shadows, box shadows, and image drop shadows.
+- Learned how to use `text-shadow` to add depth to heading text.
+- Explored `box-shadow` with inset values to create inner shadow effects on a bordered box.
+- Used `filter: drop-shadow(...)` to add a shadow behind an image.
+- Added a Google Font link for Roboto to improve the visual style of the page.
+- Practice idea: experiment with different shadow colors, blur values, and inset/outset combinations.
+
 
 
