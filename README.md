@@ -136,5 +136,15 @@
 - Added a Google Font link for Roboto to improve the visual style of the page.
 - Practice idea: experiment with different shadow colors, blur values, and inset/outset combinations.
 
+## Day Seventeen - CSS Positioning (2026-08-01)
+
+- Updated `CSS/day_17.html` to practice different CSS positioning techniques.
+- Learned how `position: relative` works as the reference point for positioned child elements.
+- Used `position: absolute` to place a box at the bottom-right of a container.
+- Explored `position: fixed` to keep a button pinned to the lower-right corner of the viewport.
+- Practiced `position: sticky` to keep a heading at the top while scrolling.
+- Reviewed the use of `top`, `right`, `bottom`, and `left` to control placement.
+- Practice idea: try combining sticky and fixed elements with different layouts to compare scrolling behavior.
+
 
 
