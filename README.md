@@ -146,5 +146,13 @@
 - Reviewed the use of `top`, `right`, `bottom`, and `left` to control placement.
 - Practice idea: try combining sticky and fixed elements with different layouts to compare scrolling behavior.
 
+## Day Eighteen - Responsive Media Queries (2026-08-04)
+
+- Updated [CSS/day_18.html](CSS/day_18.html) to practice responsive layouts using CSS media queries.
+- Built a four-box flex container and adjusted the layout using breakpoints for mobile, tablet, and laptop widths.
+- Learned that mobile screens can stack boxes vertically, tablets can display two columns, and larger screens can use a wider layout.
+- Reviewed the use of `@media (min-width:...) and (max-width:...)` to create device-specific rules.
+- Practice idea: experiment with different breakpoint values and flex wrapping to refine the responsive design.
+
 
 

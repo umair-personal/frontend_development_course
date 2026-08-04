@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Quries</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            background-color: rgb(115, 105, 112);
+            height: 100vh;
+            width: 100%;
+            display: flex;
+        }
+
+        .box-one {
+            width: 25%;
+            background-color: blueviolet;
+            height: 200px;
+        }
+
+        .box-two {
+            width: 25%;
+            background-color: rgb(142, 193, 109);
+            height: 200px;
+        }
+
+        .box-three {
+            width: 25%;
+            background-color: rgb(78, 96, 177);
+            height: 200px;
+        }
+
+        .box-four {
+            width: 25%;
+            background-color: rgb(219, 219, 101);
+            height: 200px;
+        }
+
+        /* Media query --- Mobile*/
+        /* breakpoint -- 0px to 426px */
+        @media (min-width:0px) and (max-width:426px) {
+            .container {
+                flex-wrap: wrap;
+            }
+
+            .box-one {
+                width: 100%;
+               
+            }
+
+            .box-two {
+                width: 100%;
+               
+            }
+
+            .box-three {
+                width: 100%;
+                
+            }
+
+            .box-four {
+                width: 100%;
+               
+            }
+        }
+
+        /* Media query --- Tablet*/
+             /* breakpoint -- 426px to 768px */
+        @media (min-width:426px) and (max-width:768px) {
+            .container {
+                
+                flex-wrap: wrap;
+            }
+
+            .box-one {
+                width: 50%;
+                
+            }
+
+            .box-two {
+                width: 50%;
+                
+            }
+
+            .box-three {
+                width: 50%;
+                
+            }
+
+            .box-four {
+                width: 50%;
+                
+            }
+        }
+
+        /* Media query --- Laptop*/
+            /* breakpoint -- 769px to 1024px */
+        @media (min-width:769px) and (max-width:1024px){
+             .container {
+                flex-wrap: wrap;
+            }
+
+            .box-one {
+                width: 33.33%;
+                
+            }
+
+            .box-two {
+                 width: 33.33%;
+               
+            }
+
+            .box-three {
+                  width: 33.33%;
+               
+            }
+
+            .box-four {
+                 width: 100%;
+               
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box-one"></div>
+        <div class="box-two"></div>
+        <div class="box-three"></div>
+        <div class="box-four"></div>
+    </div>
+</body>
+
+</html>
