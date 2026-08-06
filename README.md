@@ -162,3 +162,11 @@
 
 
 
+## Day Twenty - CSS Animations (2026-08-06)
+
+- Updated [CSS/day_20.html](CSS/day_20.html) with a basic animation example demonstrating `@keyframes`, `animation-duration`, `animation-timing-function`, and `animation-iteration-count`.
+- Topics: creating simple transitions, animating transforms (translate/rotate/scale), and using animation shorthand properties.
+- Practice idea: modify the keyframe steps and timings to observe different easing and motion effects; check performance on mobile viewports.
+
+
+
