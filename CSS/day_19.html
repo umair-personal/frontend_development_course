@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        #heading{
+        color: aquamarine;
+        transition: all 0.5s ease;
+       
+        }
+        #heading:hover{
+        color: rgb(25, 94, 71);
+         margin-left: 80px;
+        }
+    .btn{
+        color: white;
+        background-color: rgb(83, 152, 83);
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: all .5s ease;
+    }
+    .btn:hover{
+background-color: rgb(41, 76, 41);
+    }
+      .box{
+        margin-top: 40px;
+        width: 80px;
+        height: 80px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        transition: all 0.5s ease-in;
+        
+      }
+      .box:hover{
+        background-color: aqua;
+        transform: translateX(200px) rotate(180deg);
+        /* transform: translateY(120px); */
+        /* transform: scale(1.5); */
+        /* transform: rotate(120deg); */
+        border-radius: 50%;
+      }
+    </style>
+</head>
+<body>
+    <h1 id="heading">This is Visual Studion Code Software</h1>
+    <button class="btn">Please Sign In</button>
+    <div class="box"></div>
+</body>
+</html>

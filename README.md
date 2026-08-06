@@ -154,5 +154,11 @@
 - Reviewed the use of `@media (min-width:...) and (max-width:...)` to create device-specific rules.
 - Practice idea: experiment with different breakpoint values and flex wrapping to refine the responsive design.
 
+## Day Nineteen - Practical Review & Exercises (2026-08-06)
+
+- Updated [CSS/day_19.html](CSS/day_19.html) with practical exercises, refinements, and notes for Day 19.
+- Topics: review of responsive techniques, accessibility checks, and small layout refinements.
+- Practice idea: test the page at multiple viewport widths and iterate on spacing and alignment.
+
 
 
