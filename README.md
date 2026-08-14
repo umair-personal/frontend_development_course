@@ -168,5 +168,31 @@
 - Topics: creating simple transitions, animating transforms (translate/rotate/scale), and using animation shorthand properties.
 - Practice idea: modify the keyframe steps and timings to observe different easing and motion effects; check performance on mobile viewports.
 
+## JavaScript Series - Day 1: Fundamentals (2026-08-14)
+
+- Updated [javascript/index.html](javascript/index.html) with JavaScript basics and fundamentals.
+- **Output Methods Covered**:
+  - `document.write()` for writing directly to the document
+  - `alert()` for showing popup messages
+  - `console.log()` for logging to the browser console
+- **Variables & Keywords**:
+  - Learned three keyword types: `const`, `let`, and `var`
+  - Created variables for storing data: `const message`, `let x`, `var y`
+  - Performed arithmetic operations: `var sum = x + y`
+- **String Operations**:
+  - String concatenation using the `+` operator
+  - Combined two strings: `const fullname = stdname + fathername`
+- **Data Types Covered**:
+  - `number` (integers and decimals)
+  - `string` (text values)
+  - `boolean` (true/false)
+  - `object`, `array`, `function`, `symbol`, `bigint` (briefly introduced)
+- **Boolean Variables**:
+  - Created boolean variables: `isLogin`, `isFollow`, `isPassed` with true/false values
+  - Discussed conditional logic: "agar follow ho to button ka text following kr do"
+- **Practice Ideas**:
+  - Try different data types and observe console output
+  - Create more variables and practice concatenation
+  - Explore conditional statements using boolean variables
 
 
