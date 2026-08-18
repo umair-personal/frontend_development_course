@@ -195,4 +195,44 @@
   - Create more variables and practice concatenation
   - Explore conditional statements using boolean variables
 
+## JavaScript Series - Day 2: Functions & Parameters (2026-08-17)
+
+- Updated [javascript/function.html](javascript/function.html) with JavaScript functions and parameter handling.
+- **Function Basics Covered**:
+  - Function declarations with the `function` keyword
+  - Calling functions multiple times for code reusability
+  - Reduced code duplication by using functions instead of repeating similar statements
+- **Function Parameters & Arguments**:
+  - Created functions with parameters: `function message(msg)` to accept dynamic input
+  - Passed arguments when calling functions: `message("Welcome Muneeb")`, `message("Welcome Haris")`
+  - Built a `sum(numOne, numTwo)` function to perform calculations with multiple parameters
+- **Return Values**:
+  - Learned how functions can return values using the `return` keyword
+  - Created `add(name)` function to return the parameter value
+  - Assigned return values to variables: `const result = add("Umair")`
+- **Output Methods with Functions**:
+  - Used `alert()` to display return values in a popup dialog: `alert(add("Umair"))`
+  - Used `console.log()` to log return values to the browser console
+  - Used `document.write()` to write return values directly to the HTML document
+- **Practice Ideas**:
+  - Create functions with multiple parameters and experiment with different return types
+  - Use functions to perform math operations and display results via different output methods
+  - Practice combining functions with loops and conditionals for more complex programs
+
+## JavaScript Series - Day 3: Functions & Scope (2026-08-18)
+
+- Continued practicing with [javascript/function.html](javascript/function.html) and reviewed function concepts.
+- **Topics Reviewed**:
+  - Function reusability and parameter handling
+  - Return values and different ways to display them (alert, console.log, document.write)
+  - Function calls and the importance of avoiding code repetition
+- **Practice Focus**:
+  - Reinforced understanding of function parameters and arguments
+  - Explored how return values can be captured and used in different contexts
+  - Tested different output methods with function results
+- **Next Steps**:
+  - Practice more complex function scenarios
+  - Explore scope and variable accessibility within functions
+  - Learn about arrays and loops for iteration
+
 
