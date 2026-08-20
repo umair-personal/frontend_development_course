@@ -235,4 +235,28 @@
   - Explore scope and variable accessibility within functions
   - Learn about arrays and loops for iteration
 
+## JavaScript Series - Day 4: JavaScript Operators (2026-08-20)
+
+- Updated [javascript/operators.html](javascript/operators.html) with comprehensive operator examples and practice.
+- **Topics Covered**:
+  - **Arithmetic Operators**: `+`, `-`, `/`, `*`, `%` (modulo)
+  - **Unary Operators**: `++` (increment) and `--` (decrement)
+  - **Comparison Operators**: `==` (loose equality), `===` (strict equality), `!==` (strict inequality), `>=`, `<=`, `>`, `<`
+  - **Assignment Operators**: `=`, `+=`, `-=`, `*=`, `/=`
+  - **Logical Operators**: Basic introduction (to be covered in depth)
+- **Key Concepts**:
+  - Difference between `==` (checks value only) and `===` (checks value and data type)
+  - Understanding type coercion: `10 == "10"` returns `true`, but `10 === "10"` returns `false`
+  - Increment/decrement operators and their postfix/prefix behavior
+  - Using comparison operators to perform boolean evaluations
+- **Practice Activities**:
+  - Tested arithmetic operations with modulo operator
+  - Compared numbers and strings using different equality operators
+  - Explored how JavaScript handles type coercion
+  - Practiced building conditional logic with comparison operators
+- **Next Steps**:
+  - Dive deeper into logical operators (`&&`, `||`, `!`)
+  - Apply operators in conditional statements (`if`, `else`)
+  - Practice using operators in loops and complex expressions
+
 
