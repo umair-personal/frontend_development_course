@@ -248,6 +248,23 @@
   - Difference between `==` (checks value only) and `===` (checks value and data type)
   - Understanding type coercion: `10 == "10"` returns `true`, but `10 === "10"` returns `false`
   - Increment/decrement operators and their postfix/prefix behavior
+
+## JavaScript Series - Day 5: Conditions & Decision Making (2026-08-21)
+
+- Updated [javascript/conditions.html](javascript/conditions.html) with examples of conditional statements and decision-making logic.
+- **Topics Covered**:
+  - `if` statements for single-condition checks
+  - `else if` chains for multiple decision branches
+  - `else` as the default fallback when no condition matches
+  - Grade logic based on marks such as `A`, `B`, `C`, and `Fail`
+- **Examples Practiced**:
+  - Checking if one number is less than another
+  - Verifying a pass/fail boolean state
+  - Assigning grade categories using nested conditional logic
+- **Key Concept**:
+  - Conditions are evaluated in order, and the first true condition in the chain executes.
+- **Practice Idea**:
+  - Create more mark-based conditions and try different values to observe how each branch works.
   - Using comparison operators to perform boolean evaluations
 - **Practice Activities**:
   - Tested arithmetic operations with modulo operator
