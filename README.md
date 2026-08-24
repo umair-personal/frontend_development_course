@@ -276,4 +276,37 @@
   - Apply operators in conditional statements (`if`, `else`)
   - Practice using operators in loops and complex expressions
 
+## JavaScript Series - Day 6: Introduction to the DOM (2026-08-24)
+
+- Updated [javascript/dom.html](javascript/dom.html) and [javascript/script.js](javascript/script.js) with an introduction to the Document Object Model.
+- **Topics Covered**:
+  - Representing data with JavaScript objects and properties
+  - Selecting HTML elements with `getElementById()`, `getElementsByClassName()`, and `getElementsByTagName()`
+  - Reading element content with `innerHTML`
+  - Connecting an external JavaScript file to an HTML page with `<script src="script.js"></script>`
+- **Three Ways to Access HTML Elements**:
+  1. **`getElementById("ID")`**
+     - Selects one element using its unique `id` attribute.
+     - Returns the matching element, or `null` if no element has that ID.
+     - Example: `const paragraph = document.getElementById("para");`
+     - HTML example: `<p id="para">Document Object Model</p>`
+  2. **`getElementsByClassName("ClassName")`**
+     - Selects all elements that have the specified class name.
+     - Returns a live `HTMLCollection`, which can contain zero, one, or many elements.
+     - Example: `const headings = document.getElementsByClassName("heading");`
+     - Access one result by index: `headings[0]`
+     - HTML example: `<h1 class="heading">What is DOM?</h1>`
+  3. **`getElementsByTagName("tag")`**
+     - Selects all elements with the specified HTML tag name, such as `p`, `h1`, or `button`.
+     - Returns a live `HTMLCollection`.
+     - Example: `const buttons = document.getElementsByTagName("button");`
+     - Access one result by index: `buttons[0]`
+     - HTML example: `<button>Click Me</button>`
+- **Important Selector Note**:
+  - The correct method name is `getElementsByTagName()` with **Elements** plural.
+  - `getElementsByTagName()` accepts a tag name only; it does not accept `.className` or `#id` CSS selectors.
+  - To use CSS selectors such as `".heading"` or `"#para"`, use `document.querySelector()` for the first match or `document.querySelectorAll()` for all matches.
+- **Practice Idea**:
+  - Use DOM selectors to update the heading or paragraph when the button is clicked.
+
 
