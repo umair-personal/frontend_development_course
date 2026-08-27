@@ -316,4 +316,11 @@
 - Learned how to inspect selected elements with `console.log()` and update paragraph content with `innerText`.
 - Reviewed the difference between `innerText` and `innerHTML` when reading or changing element content.
 
+## JavaScript Series - Day 8: JavaScript Events (2026-08-27)
+
+- Added [javascript/event.html](javascript/event.html) to practice handling browser events.
+- Selected page elements with `getElementById()` and attached a click event using `addEventListener()`.
+- Read the value entered in an input with `input.value` and displayed it in a paragraph using `innerHTML`.
+- Practiced updating page text and styles from inside an event callback.
+
 

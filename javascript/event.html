@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in JS</title>
+</head>
+
+<body>
+    <h1 id="title">We are learning JS</h1>
+    <p id="text">Welcome to JS series</p>
+    <button id="btn">Submit</button>
+    <input id="input" type="text">
+    <p id="value"></p>
+    <!-- Javascript -->
+    <script>
+        const button = document.getElementById("btn")
+        let para = document.getElementById("text")
+        let title = document.getElementById("title")
+        let val=document.getElementById("value")
+let input=document.getElementById("input")
+
+
+        button.addEventListener("click", function () {
+            // para.innerHTML = "Hello"
+            // title.style.color = "red"
+            val.innerHTML=input.value
+            
+
+        })
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
