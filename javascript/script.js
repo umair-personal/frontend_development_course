@@ -9,9 +9,12 @@ const laptop = {
 // 1. getElementById("ID")
 // 2. getElementByClassName("ClassName")
 // 3. getElementByTagName("tag,.className,#id")
-let doc=document.getElementsByClassName("heading")
+let heading=document.getElementsByClassName("heading")
+console.log(heading);
 let para=document.getElementById("para")
-console.log(para.innerHTML);
+para.innerText="Hello"
+// let paraText=para.innerHTML
+// console.log(paraText);
 
 
 

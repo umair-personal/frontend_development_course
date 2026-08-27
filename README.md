@@ -309,4 +309,11 @@
 - **Practice Idea**:
   - Use DOM selectors to update the heading or paragraph when the button is clicked.
 
+## JavaScript Series - Day 7: DOM Selection & Events (2026-08-27)
+
+- Updated [javascript/dom.html](javascript/dom.html) with an inline button click handler that logs a welcome message.
+- Updated [javascript/script.js](javascript/script.js) to practice selecting elements by class name and ID.
+- Learned how to inspect selected elements with `console.log()` and update paragraph content with `innerText`.
+- Reviewed the difference between `innerText` and `innerHTML` when reading or changing element content.
+
 
