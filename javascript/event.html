@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events in JS</title>
+    <style>
+        #title {
+            background-color: aqua;
+        }
+    </style>
 </head>
 
 <body>
@@ -12,21 +17,22 @@
     <p id="text">Welcome to JS series</p>
     <button id="btn">Submit</button>
     <input id="input" type="text">
+    <h3 id="title">THis is heading three</h3>
     <p id="value"></p>
     <!-- Javascript -->
     <script>
         const button = document.getElementById("btn")
         let para = document.getElementById("text")
         let title = document.getElementById("title")
-        let val=document.getElementById("value")
-let input=document.getElementById("input")
+        let val = document.getElementById("value")
+        let input = document.getElementById("input")
 
 
         button.addEventListener("click", function () {
             // para.innerHTML = "Hello"
             // title.style.color = "red"
-            val.innerHTML=input.value
-            
+            val.innerHTML = input.value
+
 
         })
 
