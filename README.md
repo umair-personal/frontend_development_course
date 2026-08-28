@@ -323,4 +323,14 @@
 - Read the value entered in an input with `input.value` and displayed it in a paragraph using `innerHTML`.
 - Practiced updating page text and styles from inside an event callback.
 
+## JavaScript Series - Day 9: DOM Styling, String Methods & Date Object (2026-08-28)
+
+- Updated [Projects/index.html](Projects/index.html) with DOM, string, and date practice.
+- **Topics Covered**:
+  - Selected page elements with `getElementById()`.
+  - Practiced using a color input and button click event to change the page background.
+  - Used string methods such as `toUpperCase()`, `concat()`, and `replace()`.
+  - Updated paragraph content with `innerHTML`.
+  - Created a `Date` object and read the current hour with `getHours()`.
+
 
