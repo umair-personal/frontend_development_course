@@ -249,6 +249,27 @@
   - Understanding type coercion: `10 == "10"` returns `true`, but `10 === "10"` returns `false`
   - Increment/decrement operators and their postfix/prefix behavior
 
+## JavaScript Series - Day 5: DOM Creation & Arrays (2026-08-31)
+
+- Updated [javascript/createElement.html](javascript/createElement.html) to practice DOM manipulation with JavaScript.
+- **DOM Topics Covered**:
+  - `document.createElement()` to create new HTML elements dynamically
+  - `appendChild()` to insert new elements into the page
+  - `classList.add()` and `classList.toggle()` to add or switch CSS classes
+  - Using `textContent` to insert text into newly created elements
+- **Interactive Practice**:
+  - Added a button to create a new heading element on click
+  - Practiced removing or styling an existing element using the DOM API
+  - Experimented with toggling classes for visual effects
+- **Arrays & Objects Covered**:
+  - Created an array of student objects with properties such as `name`, `class`, `grade`, `age`, `marks`, and `isPassed`
+  - Used `.map()` to iterate through array data and log each object
+  - Reviewed how arrays can hold structured data for repeated display and processing
+- **Practice Ideas**:
+  - Try rendering array data into the page dynamically instead of only logging to the console
+  - Experiment with `filter()` and `forEach()` for working with array data
+  - Build small DOM-based examples that combine arrays and user actions
+
 ## JavaScript Series - Day 5: Conditions & Decision Making (2026-08-21)
 
 - Updated [javascript/conditions.html](javascript/conditions.html) with examples of conditional statements and decision-making logic.

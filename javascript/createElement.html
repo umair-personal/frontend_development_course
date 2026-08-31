@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .text {
+            color: red;
+            text-decoration: line-through;
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is Heading One</h1>
+    <span id="span">This is Span Tag</span> <br>
+    <button id="btn">Remove</button>
+    <button id="add">Add Element</button>
+    <div id="container"></div>
+    <script>
+        let span = document.getElementById("span")
+        let btn = document.getElementById("btn")
+        let div = document.getElementById("container")
+        let add = document.getElementById("add")
+        // btn.addEventListener("click", function () {
+        // span.remove()
+        // span.style.textDecoration="line-through"
+        // span.classList.add("text")
+        // span.classList.toggle("text")
+        // })
+        // ======create element
+
+        add.addEventListener("click", function () {
+            let h2 = document.createElement("h2")
+            console.log(h2);
+            h2.textContent = "Welcome"
+            div.appendChild(h2)
+            console.log(h2);
+
+        })
+
+
+
+        // ============== array
+
+        let results = [
+            { name: "Haris", class: "9th", grade: "A+", age: 25, marks: 98, isPassed: true },
+            { name: "Umair", class: "9th", grade: "B+", age: 26, marks: 90, isPassed: false },
+            { name: "Haris", class: "9th", grade: "A+", age: 25, marks: 98, isPassed: true },
+            { name: "Umair", class: "9th", grade: "B+", age: 26, marks: 90, isPassed: false },
+            { name: "Haris", class: "9th", grade: "A+", age: 25, marks: 98, isPassed: true },
+            { name: "Umair", class: "9th", grade: "B+", age: 26, marks: 90, isPassed: false },
+        ]
+
+        console.log(results);
+        // map
+        // results.map(function (result) {
+        //     console.log(result.name);
+        // })
+        results.map((res) => {
+            console.log(res);
+
+        })
+
+    </script>
+</body>
+
+</html>
