@@ -354,4 +354,14 @@
   - Updated paragraph content with `innerHTML`.
   - Created a `Date` object and read the current hour with `getHours()`.
 
+## JavaScript Series - Day 10: Fetch API & Dynamic Product Rendering (2026-09-01)
+
+- Added [javascript/fetchProduct.html](javascript/fetchProduct.html) to practice loading product data from the Fake Store API.
+- **Topics Covered**:
+  - Used `fetch()` with `async` and `await` to request data from an API.
+  - Converted the response into JavaScript data with `response.json()`.
+  - Used `forEach()` to loop through product results and destructured product properties.
+  - Created product elements dynamically and rendered them with `innerHTML` and template literals.
+  - Practiced arrow functions and asynchronous JavaScript.
+
 
